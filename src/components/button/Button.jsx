@@ -1,5 +1,7 @@
+
+
 const Button = () => {
-return<button>Click me</button>
+return<button>Continue</button>
 }
 
 export default Button

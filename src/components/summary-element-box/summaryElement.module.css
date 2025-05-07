@@ -1,0 +1,13 @@
+/*Textos*/
+.textReaction{
+    color: var(--reaction);
+}
+.textMemory{
+    color: var(--memory);
+}
+.textVerbal{
+    color: var(--verbal);
+}
+.textvisual{
+    color: var(--visual);
+}

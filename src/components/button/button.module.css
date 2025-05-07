@@ -1,0 +1,6 @@
+.buttons{
+    width: 315px;
+    height: 56px;
+    color: white;
+    background-color: var(--navyBlue);
+}
