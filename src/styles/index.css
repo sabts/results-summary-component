@@ -1,5 +1,6 @@
 :root{
   --navyBlue: #303B59;
+  --lightBlue: #CAC9FF;
   --gradient-light:  linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
   --gradient-dark: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
   --summaryElement-box:linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
@@ -37,4 +38,9 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+}
+@media screen and (min-width: 1020px) {
+  body{
+    background-color: var(--lightBlue);
+  }
 }

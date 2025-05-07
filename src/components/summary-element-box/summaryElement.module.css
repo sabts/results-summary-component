@@ -1,13 +1,41 @@
+/*contenedores(cajas)*/
+.summariesbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 315px;
+    height: 56px;
+    border-radius: 12px;
+    padding: 1rem;
+    background-image: var(--summaryElement-box)
+}
+
+.reaction{
+    background-color: var(--reaction);
+}
+.memory{
+    background-color: var(--memory);
+}
+.verbal{
+    background-color: var(--verbal);
+}
+.visual{
+    background-color: var(--visual);
+}
+.text-icon-container{
+    display: flex;
+    gap: 0.75rem;
+}
 /*Textos*/
-.textReaction{
+.textreaction {
     color: var(--reaction);
-}
-.textMemory{
+  }
+  .textmemory {
     color: var(--memory);
-}
-.textVerbal{
+  }
+  .textverbal {
     color: var(--verbal);
-}
-.textvisual{
+  }
+  .textvisual {
     color: var(--visual);
-}
+  }

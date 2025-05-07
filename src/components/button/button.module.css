@@ -1,6 +1,13 @@
 .buttons{
+    border: none;
     width: 315px;
     height: 56px;
     color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
     background-color: var(--navyBlue);
+    border-radius: 128px;
+}
+.buttons:hover{
+    background-image: var(--gradient-light);
 }

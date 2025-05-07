@@ -1,10 +1,12 @@
 import style from "./summaryElement.module.css"
 
 const SummaryElementBox = ({color, icon, title, userpoints, overpoint}) => {
-    return  <div>
-         <div className={`text${color}`}>
-            <img className={icon}/>
-            <span>{title}</span>
+  const textClass = style[`text${color}`];
+  const summarycardcolor = `${style.summariesbox} ${style[color]}`;
+    return  <div className={summarycardcolor}>
+         <div className={style["text-icon-container"]}>
+         <img src={icon} alt={`${title} icon`}/>
+         <span className={textClass}>{title}</span>
             </div>
             <div>
                 <span>{userpoints}</span>
